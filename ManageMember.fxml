@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library.ManageMemberController">
+   <children>
+      <ListView fx:id="listView" layoutX="47.0" layoutY="13.0" prefHeight="389.0" prefWidth="290.0" />
+      <TextField fx:id="txtName" layoutX="374.0" layoutY="48.0" promptText="Tên thành viên" />
+      <TextField fx:id="txtId" layoutX="374.0" layoutY="108.0" promptText="Mã số" />
+      <Button onAction="#addMember" layoutX="374.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="65.0" text="Thêm" />
+      <Button onAction="#editMember" layoutX="496.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="65.0" text="Sửa" />
+   </children>
+</AnchorPane>

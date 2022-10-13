@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library.HomeController">
+   <children>
+      <Button onAction="#goQLS" layoutX="36.0" mnemonicParsing="false" prefHeight="199.0" prefWidth="550.0" style="-fx-background-color: green;" text="Quản lý sách">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Button>
+      <Button onAction="#goQLTT" layoutX="36.0" layoutY="199.0" mnemonicParsing="false" prefHeight="199.0" prefWidth="550.0" style="-fx-background-color: gold;" text="Quản lý thành viên">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Button>
+      <Button onAction="#goQLMS" layoutX="36.0" layoutY="398.0" mnemonicParsing="false" prefHeight="199.0" prefWidth="550.0" style="-fx-background-color: red;" text="Quản lý mượn sách">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
